@@ -1,0 +1,102 @@
+.image2 {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+  background-color: hsl(30, 38%, 92%);
+}
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.component {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  background-color: white;
+  height: 450px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.img {
+  display: inline-block;
+}
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.head-article {
+  display: inline-block;
+}
+.vertically-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.perfume-head {
+  margin-left: 30px;
+  margin-bottom: 26px;
+  margin-top: 28px;
+  letter-spacing: 0.3rem;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-head {
+  margin-bottom: 17px;
+  font-family: "Fraunces", serif;
+  margin-left: 26px;
+  margin-right: 84px;
+  font-size: 30px;
+}
+.main-content {
+  margin-bottom: 28px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 26px;
+  margin-right: 28px;
+}
+
+.price-tag {
+  margin-bottom: 25px;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  margin-left: 26px;
+}
+.strike-tag {
+  color: hsl(228, 12%, 48%);
+  font-size: 16px;
+  margin-left: 23px;
+}
+.Cart-Button {
+  padding: 15px 50px;
+  margin-left: 10%;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+.Cart-Button:hover {
+  cursor: pointer;
+  background-color: hsl(158, 38%, 25%);
+  font-style: italic;
+}
+.foot {
+  margin-top: 50px;
+  text-align: center;
+}
